@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "5e223b43-eca6-4b13-a724-b76fc264d53a",
+		"name": "Blockchain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mine_block",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/mine_block",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"mine_block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/get_chain",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"get_chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "is_valid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/is_valid",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"is_valid"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
